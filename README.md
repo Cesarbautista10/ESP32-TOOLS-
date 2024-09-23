@@ -11,7 +11,7 @@ Download the flasher tool from the [Espressif website](hhttps://www.espressif.co
 
 The firmware is located in the `build` directory. The firmware is named `esp32-blink.bin`.
 
-(ESP-Blink.bin)[./build/ESP-Blink.bin]
+[ESP-Blink.bin](./build/ESP-Blink.bin)
 
 ![flash](./images/flash.png)
 
