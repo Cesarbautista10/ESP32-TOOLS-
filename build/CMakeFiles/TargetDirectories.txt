@@ -8,7 +8,7 @@
 /home/mr/Documents/project_research/ESP32-TOOLS-/build/CMakeFiles/flash.dir
 /home/mr/Documents/project_research/ESP32-TOOLS-/build/CMakeFiles/encrypted-flash.dir
 /home/mr/Documents/project_research/ESP32-TOOLS-/build/CMakeFiles/_project_elf_src.dir
-/home/mr/Documents/project_research/ESP32-TOOLS-/build/CMakeFiles/ESP-SPI.elf.dir
+/home/mr/Documents/project_research/ESP32-TOOLS-/build/CMakeFiles/ESP-Blink.elf.dir
 /home/mr/Documents/project_research/ESP32-TOOLS-/build/CMakeFiles/size.dir
 /home/mr/Documents/project_research/ESP32-TOOLS-/build/CMakeFiles/size-files.dir
 /home/mr/Documents/project_research/ESP32-TOOLS-/build/CMakeFiles/size-components.dir

@@ -292,17 +292,17 @@ _project_elf_src/fast:
 .PHONY : _project_elf_src/fast
 
 #=============================================================================
-# Target rules for targets named ESP-SPI.elf
+# Target rules for targets named ESP-Blink.elf
 
 # Build rule for target.
-ESP-SPI.elf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ESP-SPI.elf
-.PHONY : ESP-SPI.elf
+ESP-Blink.elf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ESP-Blink.elf
+.PHONY : ESP-Blink.elf
 
 # fast build rule for target.
-ESP-SPI.elf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESP-SPI.elf.dir/build.make CMakeFiles/ESP-SPI.elf.dir/build
-.PHONY : ESP-SPI.elf/fast
+ESP-Blink.elf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESP-Blink.elf.dir/build.make CMakeFiles/ESP-Blink.elf.dir/build
+.PHONY : ESP-Blink.elf/fast
 
 #=============================================================================
 # Target rules for targets named size
@@ -1648,7 +1648,7 @@ project_elf_src_esp32.obj: project_elf_src_esp32.c.obj
 
 # target to build an object file
 project_elf_src_esp32.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESP-SPI.elf.dir/build.make CMakeFiles/ESP-SPI.elf.dir/project_elf_src_esp32.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESP-Blink.elf.dir/build.make CMakeFiles/ESP-Blink.elf.dir/project_elf_src_esp32.c.obj
 .PHONY : project_elf_src_esp32.c.obj
 
 project_elf_src_esp32.i: project_elf_src_esp32.c.i
@@ -1656,7 +1656,7 @@ project_elf_src_esp32.i: project_elf_src_esp32.c.i
 
 # target to preprocess a source file
 project_elf_src_esp32.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESP-SPI.elf.dir/build.make CMakeFiles/ESP-SPI.elf.dir/project_elf_src_esp32.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESP-Blink.elf.dir/build.make CMakeFiles/ESP-Blink.elf.dir/project_elf_src_esp32.c.i
 .PHONY : project_elf_src_esp32.c.i
 
 project_elf_src_esp32.s: project_elf_src_esp32.c.s
@@ -1664,7 +1664,7 @@ project_elf_src_esp32.s: project_elf_src_esp32.c.s
 
 # target to generate assembly for a file
 project_elf_src_esp32.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESP-SPI.elf.dir/build.make CMakeFiles/ESP-SPI.elf.dir/project_elf_src_esp32.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ESP-Blink.elf.dir/build.make CMakeFiles/ESP-Blink.elf.dir/project_elf_src_esp32.c.s
 .PHONY : project_elf_src_esp32.c.s
 
 # Help Target
@@ -1717,7 +1717,7 @@ help:
 	@echo "... size-files"
 	@echo "... uf2"
 	@echo "... uf2-app"
-	@echo "... ESP-SPI.elf"
+	@echo "... ESP-Blink.elf"
 	@echo "... __idf_app_trace"
 	@echo "... __idf_app_update"
 	@echo "... __idf_asio"

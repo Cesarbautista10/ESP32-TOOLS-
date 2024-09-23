@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "ESP-SPI.bin"
-  "ESP-SPI.map"
+  "ESP-Blink.bin"
+  "ESP-Blink.map"
   "bootloader/bootloader.bin"
   "bootloader/bootloader.elf"
   "bootloader/bootloader.map"

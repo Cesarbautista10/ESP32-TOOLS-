@@ -8,5 +8,5 @@ C_INCLUDES = -I/home/mr/Documents/project_research/ESP32-TOOLS-/build/config -I/
 
 C_FLAGS = -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -ggdb -Og -fmacro-prefix-map=/home/mr/Documents/project_research/ESP32-TOOLS-=. -fmacro-prefix-map=/home/mr/esp/esp-idf=IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -std=gnu99 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v4.4.8-1-ga9d0f22193\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS
 
-# Custom defines: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj_DEFINES = PROJECT_VER="1"; PROJECT_NAME="ESP-SPI"
+# Custom defines: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj_DEFINES = PROJECT_VER="dcb72aa-dirty"; PROJECT_NAME="ESP-Blink"
 

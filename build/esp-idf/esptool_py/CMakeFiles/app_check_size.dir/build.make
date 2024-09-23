@@ -67,7 +67,7 @@ include esp-idf/esptool_py/CMakeFiles/app_check_size.dir/compiler_depend.make
 include esp-idf/esptool_py/CMakeFiles/app_check_size.dir/progress.make
 
 esp-idf/esptool_py/CMakeFiles/app_check_size:
-	cd /home/mr/Documents/project_research/ESP32-TOOLS-/build/esp-idf/esptool_py && /home/mr/.espressif/python_env/idf4.4_py3.12_env/bin/python /home/mr/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/mr/Documents/project_research/ESP32-TOOLS-/build/partition_table/partition-table.bin /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-SPI.bin
+	cd /home/mr/Documents/project_research/ESP32-TOOLS-/build/esp-idf/esptool_py && /home/mr/.espressif/python_env/idf4.4_py3.12_env/bin/python /home/mr/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/mr/Documents/project_research/ESP32-TOOLS-/build/partition_table/partition-table.bin /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-Blink.bin
 
 app_check_size: esp-idf/esptool_py/CMakeFiles/app_check_size
 app_check_size: esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build.make

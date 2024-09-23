@@ -66,8 +66,8 @@ include CMakeFiles/size-files.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/size-files.dir/progress.make
 
-CMakeFiles/size-files: ESP-SPI.map
-	/home/mr/.espressif/python_env/idf4.4_py3.12_env/bin/python /home/mr/esp/esp-idf/tools/idf_size.py --files /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-SPI.map
+CMakeFiles/size-files: ESP-Blink.map
+	/home/mr/.espressif/python_env/idf4.4_py3.12_env/bin/python /home/mr/esp/esp-idf/tools/idf_size.py --files /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-Blink.map
 
 size-files: CMakeFiles/size-files
 size-files: CMakeFiles/size-files.dir/build.make

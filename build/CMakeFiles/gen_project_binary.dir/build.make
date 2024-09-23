@@ -68,11 +68,11 @@ include CMakeFiles/gen_project_binary.dir/progress.make
 
 CMakeFiles/gen_project_binary: .bin_timestamp
 
-.bin_timestamp: ESP-SPI.elf
+.bin_timestamp: ESP-Blink.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mr/Documents/project_research/ESP32-TOOLS-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/home/mr/.espressif/python_env/idf4.4_py3.12_env/bin/python /home/mr/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 399 -o /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-SPI.bin /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-SPI.elf
-	/usr/bin/cmake -E echo "Generated /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-SPI.bin"
-	/usr/bin/cmake -E md5sum /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-SPI.bin > /home/mr/Documents/project_research/ESP32-TOOLS-/build/.bin_timestamp
+	/home/mr/.espressif/python_env/idf4.4_py3.12_env/bin/python /home/mr/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 399 -o /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-Blink.bin /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-Blink.elf
+	/usr/bin/cmake -E echo "Generated /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-Blink.bin"
+	/usr/bin/cmake -E md5sum /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-Blink.bin > /home/mr/Documents/project_research/ESP32-TOOLS-/build/.bin_timestamp
 
 gen_project_binary: .bin_timestamp
 gen_project_binary: CMakeFiles/gen_project_binary

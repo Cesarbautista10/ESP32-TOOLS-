@@ -216,7 +216,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ESP-SPI
+CMAKE_PROJECT_NAME:STATIC=ESP-Blink
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/home/mr/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib
@@ -296,13 +296,13 @@ ENABLE_TESTING:BOOL=
 ENABLE_ZLIB_SUPPORT:BOOL=OFF
 
 //Value Computed by CMake
-ESP-SPI_BINARY_DIR:STATIC=/home/mr/Documents/project_research/ESP32-TOOLS-/build
+ESP-Blink_BINARY_DIR:STATIC=/home/mr/Documents/project_research/ESP32-TOOLS-/build
 
 //Value Computed by CMake
-ESP-SPI_IS_TOP_LEVEL:STATIC=ON
+ESP-Blink_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-ESP-SPI_SOURCE_DIR:STATIC=/home/mr/Documents/project_research/ESP32-TOOLS-
+ESP-Blink_SOURCE_DIR:STATIC=/home/mr/Documents/project_research/ESP32-TOOLS-
 
 //No help, variable specified on the command line.
 ESP_PLATFORM:UNINITIALIZED=1

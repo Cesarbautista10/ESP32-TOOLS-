@@ -67,7 +67,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /home/mr/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH="/home/mr/esp/esp-idf" -D SERIAL_TOOL="/home/mr/.espressif/python_env/idf4.4_py3.12_env/bin/python /home/mr/esp/esp-idf/tools/idf_monitor.py" -D SERIAL_TOOL_ARGS="--target esp32 --revision 0 /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-SPI.elf" -D WORKING_DIRECTORY="/home/mr/Documents/project_research/ESP32-TOOLS-/build" -P run_serial_tool.cmake
+	cd /home/mr/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH="/home/mr/esp/esp-idf" -D SERIAL_TOOL="/home/mr/.espressif/python_env/idf4.4_py3.12_env/bin/python /home/mr/esp/esp-idf/tools/idf_monitor.py" -D SERIAL_TOOL_ARGS="--target esp32 --revision 0 /home/mr/Documents/project_research/ESP32-TOOLS-/build/ESP-Blink.elf" -D WORKING_DIRECTORY="/home/mr/Documents/project_research/ESP32-TOOLS-/build" -P run_serial_tool.cmake
 
 monitor: CMakeFiles/monitor
 monitor: CMakeFiles/monitor.dir/build.make
